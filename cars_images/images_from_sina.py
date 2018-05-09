@@ -3,7 +3,7 @@
 by xlc time:2018-05-05 22:47:33
 '''
 import sys
-sys.path.append(r'D:\mypyfunc')
+sys.path.append(r'G:\Github_codes\mypyfunc')
 import os
 main_path = os.path.dirname(os.path.abspath(__file__)).replace('\\', '/')
 main_path = '/'.join(main_path.split('/')[:-1])
@@ -11,22 +11,26 @@ from data_trsfm import txt2lst
 import urllib.request
 import json
 from bs4 import BeautifulSoup as bf
+import time
+import random
 
-#def get_images(url): # 给定url 爬取图片
-if __name__ == '__main__':
-    '''
+def get_images(path_name, url): # 给定url 爬取图片
+
     url_request = urllib.request.urlopen('http:'+url)
     data = url_request.read().decode('utf-8')
-    f = open('result.txt', 'w', encoding='utf-8')
-    f.write(data)
-    f.close()
-    '''
-    data = open('result.txt', 'r', encoding='utf-8').read()
     soup = bf(data, 'lxml')
     need_data = soup.find('div', {'class':'y-tuku235 seek-list'}).find_all('li')
-    img_data = need_data[0].find('img')
-    img_name = img_data['alt']
-    img_site = img_data['src']
+    count = 0
+    for dt in need_data:
+        img_data = dt.find('img')
+        img_name = img_data['alt']
+        img_site = img_data['src']
+        img_rq = urllib.request.urlopen(img_site)
+        img_dt = img_rq.read()
+        f = open(path_name + '_' + str(count) + '.jpg', 'wb')
+        f.write(img_dt)
+        f.close()
+        count += 1
 
 if __name__ != '__main__':#爬源代码 txt.txt
     url = 'http://db.auto.sina.com.cn/photo/b76.html'
@@ -59,7 +63,7 @@ if __name__ != '__main__': # 爬取车名字 cars_sites.txt
         f.write('\n')
     f.close()
     
-if __name__ != '__main__': # 爬取车的图片
+if __name__ == '__main__': # 爬取车的图片
     source_data = txt2lst('cars_sites.txt')
     source = [i[0] for i in source_data]
     source = [json.loads(i) for i in source]
@@ -76,10 +80,13 @@ if __name__ != '__main__': # 爬取车的图片
                 pass
             else:
                 os.mkdir(main_path + '/cars_images/' + first_name + '/' + xi)
+            img_path = main_path + '/cars_images/' + first_name + '/' + xi
             real_data = list(data[xi].items()) # 有网址的数据
             for item in real_data:
                 car_type = item[0]
                 rq_url = item[1]
-                get_images(rq_url)
-            break
-        break
+                #print(img_path + '/' + car_type, rq_url)
+                get_images(img_path + '/' + car_type, rq_url)
+                time_lazy = random.randint(5, 50)
+                time.sleep(time_lazy)
+
