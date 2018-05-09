@@ -3,7 +3,7 @@
 by xlc time:2018-05-05 22:47:33
 '''
 import sys
-sys.path.append(r'G:\Github_codes\mypyfunc')
+sys.path.append(r'D:\mypyfunc')
 import os
 main_path = os.path.dirname(os.path.abspath(__file__)).replace('\\', '/')
 main_path = '/'.join(main_path.split('/')[:-1])
@@ -12,12 +12,21 @@ import urllib.request
 import json
 from bs4 import BeautifulSoup as bf
 
-def get_images(url): # 给定url 爬取图片
+#def get_images(url): # 给定url 爬取图片
+if __name__ == '__main__':
+    '''
     url_request = urllib.request.urlopen('http:'+url)
     data = url_request.read().decode('utf-8')
     f = open('result.txt', 'w', encoding='utf-8')
     f.write(data)
     f.close()
+    '''
+    data = open('result.txt', 'r', encoding='utf-8').read()
+    soup = bf(data, 'lxml')
+    need_data = soup.find('div', {'class':'y-tuku235 seek-list'}).find_all('li')
+    img_data = need_data[0].find('img')
+    img_name = img_data['alt']
+    img_site = img_data['src']
 
 if __name__ != '__main__':#爬源代码 txt.txt
     url = 'http://db.auto.sina.com.cn/photo/b76.html'
@@ -50,7 +59,7 @@ if __name__ != '__main__': # 爬取车名字 cars_sites.txt
         f.write('\n')
     f.close()
     
-if __name__ == '__main__': # 爬取车的图片
+if __name__ != '__main__': # 爬取车的图片
     source_data = txt2lst('cars_sites.txt')
     source = [i[0] for i in source_data]
     source = [json.loads(i) for i in source]

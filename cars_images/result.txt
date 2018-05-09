@@ -6,24 +6,24 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>【领雅图片】领雅图片大全 -新浪汽车</title>
-    <meta name="Keywords" content="领雅图片,领雅图片大全" />
-    <meta name="Description" content="领雅图片:新浪汽车提供领雅汽车高清实拍图,包含领雅各款在产车型外观、内饰、空间高清实拍图片,以及官方图、车展图等！" />
+    <title>【F12 Berlinetta图片】F12 Berlinetta图片大全 -新浪汽车</title>
+    <meta name="Keywords" content="F12 Berlinetta图片,F12 Berlinetta图片大全" />
+    <meta name="Description" content="F12 Berlinetta图片:新浪汽车提供F12 Berlinetta汽车高清实拍图,包含F12 Berlinetta各款在产车型外观、内饰、空间高清实拍图片,以及官方图、车展图等！" />
     <meta name="viewport" content="width=device-width">
     <meta name="navIndex" content="autoPic_">
-    <meta name="sudameta" content="carid:;brandsid:11;subbeandsid:483;fircolum:图片;seccolum:;ctime:;doctags:;fromcol:;">
+    <meta name="sudameta" content="carid:;brandsid:82;subbeandsid:1387;fircolum:图片;seccolum:;ctime:;doctags:;fromcol:;">
     <link rel="icon" href="//www.sinaimg.cn/travel/2013/0529/favicon.ico" type="image/x-icon"  charset="gb2312"/>
     <link rel="shortcut icon" href="//www.sinaimg.cn/travel/2013/0529/favicon.ico" type="image/x-icon"  charset="gb2312"/>
     <link rel="stylesheet" href="//auto.sina.com.cn/2015/0818/auto_base.css" type="text/css" charset="gb2312"/>
     <link rel="stylesheet" href="//auto.sina.com.cn/autodata/version1610/20160929/autodata.css" type="text/css" charset="gb2312"/>
-    <link rel="canonical" href="//db.auto.sina.com.cn/photo/s483.html" />
+    <link rel="canonical" href="//db.auto.sina.com.cn/photo/s1387.html" />
     <meta name="applicable-device" content="pc">
 	<meta http-equiv="Cache-Control" content="no-transform"/> 
 	<meta http-equiv="Cache-Control" content="no-siteapp" />
-	<meta name="mobile-agent" content="format=html5;url=//db.auto.sina.cn/483/tupian/" />
-	<meta name="mobile-agent" content="format=xhtml;url=//db.auto.sina.cn/483/tupian/" />
-	<meta name="mobile-agent" content="format=wml;url=//db.auto.sina.cn/483/tupian/" />
-	<link rel="alternate" media="only screen and(max-width: 640px)" href="//db.auto.sina.cn/483/tupian/" >
+	<meta name="mobile-agent" content="format=html5;url=//db.auto.sina.cn/1387/tupian/" />
+	<meta name="mobile-agent" content="format=xhtml;url=//db.auto.sina.cn/1387/tupian/" />
+	<meta name="mobile-agent" content="format=wml;url=//db.auto.sina.cn/1387/tupian/" />
+	<link rel="alternate" media="only screen and(max-width: 640px)" href="//db.auto.sina.cn/1387/tupian/" >
 </head>
 <body>
     <!-- auto commonHead begin -->
@@ -48,13 +48,13 @@
                            <i>&gt;</i><a href="//db.auto.sina.com.cn/photo/">图片</a>
                         
                         
-                           <i>&gt;</i><a href="//db.auto.sina.com.cn/photo/b11.html">菲亚特</a>
+                           <i>&gt;</i><a href="//db.auto.sina.com.cn/photo/b82.html">法拉利</a>
                         
                         
-                           <i>&gt;</i><a href="//db.auto.sina.com.cn/photo/p17.html">菲亚特（进口）</a>
+                           <i>&gt;</i><a href="//db.auto.sina.com.cn/photo/p37.html">法拉利</a>
                         
                         
-                           <i>&gt;</i><a href="javascript:void(0);">领雅</a>
+                           <i>&gt;</i><a href="javascript:void(0);">F12 Berlinetta</a>
                         
             </div>
             <div id="autoSearchBar" class="fR">
@@ -219,6 +219,9 @@
 							</dd>
 							<dd >
 								<a href="//db.auto.sina.com.cn/photo/s710.html" data-type="subid"><i></i>奥迪Q5</a>
+							</dd>
+							<dd >
+								<a href="//db.auto.sina.com.cn/photo/s3158.html" data-type="subid"><i></i>奥迪Q5L</a>
 							</dd>
 							<dd class="maker ">
 								<a href="//db.auto.sina.com.cn/photo/p2.html" data-id="2" data-type="bid"><i></i>奥迪（进口）</a>
@@ -2456,7 +2459,7 @@
 					</li>
                 <li>
 					<h5 data-name="F">F</h5>
-					<dl class="">
+					<dl class="unfold">
 						<dt class="">
 							<b></b>
 							<a href="//db.auto.sina.com.cn/photo/b82.html" data-id="82" data-type="did"><i></i>法拉利</a>
@@ -2467,7 +2470,7 @@
 							<dd >
 								<a href="//db.auto.sina.com.cn/photo/s584.html" data-type="subid"><i></i>California</a>
 							</dd>
-							<dd >
+							<dd class="current">
 								<a href="//db.auto.sina.com.cn/photo/s1387.html" data-type="subid"><i></i>F12 Berlinetta</a>
 							</dd>
 							<dd >
@@ -2486,7 +2489,7 @@
 								<a href="//db.auto.sina.com.cn/photo/s2846.html" data-type="subid"><i></i>法拉利812 Superfast</a>
 							</dd>
 							</dl>
-					<dl class="unfold">
+					<dl class="">
 						<dt class="">
 							<b></b>
 							<a href="//db.auto.sina.com.cn/photo/b11.html" data-id="11" data-type="did"><i></i>菲亚特</a>
@@ -2515,7 +2518,7 @@
 							<dd >
 								<a href="//db.auto.sina.com.cn/photo/s1278.html" data-type="subid"><i></i>菲跃</a>
 							</dd>
-							<dd class="current">
+							<dd >
 								<a href="//db.auto.sina.com.cn/photo/s483.html" data-type="subid"><i></i>领雅</a>
 							</dd>
 							</dl>
@@ -7624,7 +7627,7 @@
                             <li class="J_dtHeight">
                                 <dl class="clearfix">
                                     <dt class="fL">车&nbsp;&nbsp;&nbsp;&nbsp;型:</dt>
-                                    <dd class="J_furlTab tit-all on"><a href="//db.auto.sina.com.cn/photo/s483-0-0-0-0-0-1.html" suda-uatrack="key=photo&value=condition_prod:unlimited"><i></i>不限</a></dd>
+                                    <dd class="J_furlTab tit-all on"><a href="//db.auto.sina.com.cn/photo/s1387-0-0-0-0-0-1.html" suda-uatrack="key=photo&value=condition_prod:unlimited"><i></i>不限</a></dd>
                                     </br>
                                     
                                     </dl>
@@ -7633,18 +7636,20 @@
                                 <dl class="clearfix">
                                     <dt class="fL">类&nbsp;&nbsp;&nbsp;&nbsp;型:</dt>
                                     <!-- 图解：有显示，没有不显示； 其他类型全显示，没有的话置灰  -->
-                                    <dd class="current"><a href="//db.auto.sina.com.cn/photo/s483-0-0-0-0-0-1.html" suda-uatrack="key=photo&value=condition_type:0"><i></i>不限</a></dd>
+                                    <dd class="current"><a href="//db.auto.sina.com.cn/photo/s1387-0-0-0-0-0-1.html" suda-uatrack="key=photo&value=condition_type:0"><i></i>不限</a></dd>
                                     
                                     <dd class="none"><a href="javascript:void(0);"><i></i>外观</a></dd>
                                     <dd class="none"><a href="javascript:void(0);"><i></i>内饰</a></dd>
                                     <dd class="none"><a href="javascript:void(0);"><i></i>引擎底盘</a></dd>
-                                    <dd class="none"><a href="javascript:void(0);"><i></i>综合</a></dd>
+                                    <dd ><a href="//db.auto.sina.com.cn/photo/s1387-0-0-3-0-0-1.html" suda-uatrack="key=photo&value=condition_type:2-0"><i></i>官方</a></dd>
+                                    <dd ><a href="//db.auto.sina.com.cn/photo/s1387-0-0-27-0-0-1.html" suda-uatrack="key=photo&value=condition_type:2-0"><i></i>车展</a></dd>
+                                    <dd ><a href="//db.auto.sina.com.cn/photo/s1387-0-0-99-0-0-1.html" suda-uatrack="key=photo&value=condition_type:99-0"><i></i>综合</a></dd>
                                     </dl>
                             </li>
                             <li>
                                 <dl class="clearfix">
                                     <dt class="fL">颜&nbsp;&nbsp;&nbsp;&nbsp;色:</dt>
-                                    <dd class="current"><a href="//db.auto.sina.com.cn/photo/s483-0-0-0-0-0-1.html" suda-uatrack="key=photo&value=condition_color:0"><i></i>不限</a></dd>
+                                    <dd class="current"><a href="//db.auto.sina.com.cn/photo/s1387-0-0-0-0-0-1.html" suda-uatrack="key=photo&value=condition_color:0"><i></i>不限</a></dd>
                                     </dl>
                             </li>
                         </ul>
@@ -7658,17 +7663,209 @@
 	                	
 	                	 图片
 	                	</h2>
-                		<span>(共<em>0</em>张图片)</span>
+                		<span>(共<em>343</em>张图片)</span>
                 	</div>
                 </div>
                 
                 <div class="y-tuku235 seek-list">
                     <ul class="like235 clearfix">
-                    	</ul>
+                    	<li class="fL">
+                                    <div class="img">
+                                        <a target="_blank" href="//db.auto.sina.com.cn/photo/c81820-99-1.html#33738180">
+                                            <img alt="2013款法拉利F12 Berlinetta" src="http://www.sinaimg.cn/qc/photo_auto/chezhan/2013/60/15/37/132759_340.jpg" title="2013款法拉利F12 Berlinetta图片">
+                                        </a>
+                                    </div>
+                                    <p class="title">
+                                        <a target="_blank" href="//db.auto.sina.com.cn/photo/c81820-99-1.html#33738180" title="2013款法拉利F12 Berlinetta图片">2013款法拉利F12 Berlinetta</a>
+                                    </p>
+                                </li>
+                            <li class="fL">
+                                    <div class="img">
+                                        <a target="_blank" href="//db.auto.sina.com.cn/photo/c81820-99-1.html#33738179">
+                                            <img alt="2013款法拉利F12 Berlinetta" src="http://www.sinaimg.cn/qc/photo_auto/chezhan/2013/60/15/37/132758_340.jpg" title="2013款法拉利F12 Berlinetta图片">
+                                        </a>
+                                    </div>
+                                    <p class="title">
+                                        <a target="_blank" href="//db.auto.sina.com.cn/photo/c81820-99-1.html#33738179" title="2013款法拉利F12 Berlinetta图片">2013款法拉利F12 Berlinetta</a>
+                                    </p>
+                                </li>
+                            <li class="fL">
+                                    <div class="img">
+                                        <a target="_blank" href="//db.auto.sina.com.cn/photo/c81820-99-1.html#33738178">
+                                            <img alt="2013款法拉利F12 Berlinetta" src="http://www.sinaimg.cn/qc/photo_auto/chezhan/2013/60/15/37/132757_340.jpg" title="2013款法拉利F12 Berlinetta图片">
+                                        </a>
+                                    </div>
+                                    <p class="title">
+                                        <a target="_blank" href="//db.auto.sina.com.cn/photo/c81820-99-1.html#33738178" title="2013款法拉利F12 Berlinetta图片">2013款法拉利F12 Berlinetta</a>
+                                    </p>
+                                </li>
+                            <li class="fL">
+                                    <div class="img">
+                                        <a target="_blank" href="//db.auto.sina.com.cn/photo/c81820-99-1.html#33738177">
+                                            <img alt="2013款法拉利F12 Berlinetta" src="http://www.sinaimg.cn/qc/photo_auto/chezhan/2013/60/15/37/132756_340.jpg" title="2013款法拉利F12 Berlinetta图片">
+                                        </a>
+                                    </div>
+                                    <p class="title">
+                                        <a target="_blank" href="//db.auto.sina.com.cn/photo/c81820-99-1.html#33738177" title="2013款法拉利F12 Berlinetta图片">2013款法拉利F12 Berlinetta</a>
+                                    </p>
+                                </li>
+                            <li class="fL">
+                                    <div class="img">
+                                        <a target="_blank" href="//db.auto.sina.com.cn/photo/c81821-3-1.html#15101353">
+                                            <img alt="法拉利F12 Berlinetta官方图" src="http://www.sinaimg.cn/qc/photo_auto/photo/13/53/15101353/15101353_340.jpg" title="法拉利F12 Berlinetta官方图图片">
+                                        </a>
+                                    </div>
+                                    <p class="title">
+                                        <a target="_blank" href="//db.auto.sina.com.cn/photo/c81821-3-1.html#15101353" title="法拉利F12 Berlinetta官方图图片">法拉利F12 Berlinetta官方图</a>
+                                    </p>
+                                </li>
+                            <li class="fL">
+                                    <div class="img">
+                                        <a target="_blank" href="//db.auto.sina.com.cn/photo/c81821-3-1.html#15101352">
+                                            <img alt="法拉利F12 Berlinetta官方图" src="http://www.sinaimg.cn/qc/photo_auto/photo/13/52/15101352/15101352_340.jpg" title="法拉利F12 Berlinetta官方图图片">
+                                        </a>
+                                    </div>
+                                    <p class="title">
+                                        <a target="_blank" href="//db.auto.sina.com.cn/photo/c81821-3-1.html#15101352" title="法拉利F12 Berlinetta官方图图片">法拉利F12 Berlinetta官方图</a>
+                                    </p>
+                                </li>
+                            <li class="fL">
+                                    <div class="img">
+                                        <a target="_blank" href="//db.auto.sina.com.cn/photo/c81821-3-1.html#15101351">
+                                            <img alt="法拉利F12 Berlinetta官方图" src="http://www.sinaimg.cn/qc/photo_auto/photo/13/51/15101351/15101351_340.jpg" title="法拉利F12 Berlinetta官方图图片">
+                                        </a>
+                                    </div>
+                                    <p class="title">
+                                        <a target="_blank" href="//db.auto.sina.com.cn/photo/c81821-3-1.html#15101351" title="法拉利F12 Berlinetta官方图图片">法拉利F12 Berlinetta官方图</a>
+                                    </p>
+                                </li>
+                            <li class="fL">
+                                    <div class="img">
+                                        <a target="_blank" href="//db.auto.sina.com.cn/photo/c81821-3-1.html#15101350">
+                                            <img alt="法拉利F12 Berlinetta官方图" src="http://www.sinaimg.cn/qc/photo_auto/photo/13/50/15101350/15101350_340.jpg" title="法拉利F12 Berlinetta官方图图片">
+                                        </a>
+                                    </div>
+                                    <p class="title">
+                                        <a target="_blank" href="//db.auto.sina.com.cn/photo/c81821-3-1.html#15101350" title="法拉利F12 Berlinetta官方图图片">法拉利F12 Berlinetta官方图</a>
+                                    </p>
+                                </li>
+                            <li class="fL">
+                                    <div class="img">
+                                        <a target="_blank" href="//db.auto.sina.com.cn/photo/c81821-3-1.html#15101349">
+                                            <img alt="法拉利F12 Berlinetta官方图" src="http://www.sinaimg.cn/qc/photo_auto/photo/13/49/15101349/15101349_340.jpg" title="法拉利F12 Berlinetta官方图图片">
+                                        </a>
+                                    </div>
+                                    <p class="title">
+                                        <a target="_blank" href="//db.auto.sina.com.cn/photo/c81821-3-1.html#15101349" title="法拉利F12 Berlinetta官方图图片">法拉利F12 Berlinetta官方图</a>
+                                    </p>
+                                </li>
+                            <li class="fL">
+                                    <div class="img">
+                                        <a target="_blank" href="//db.auto.sina.com.cn/photo/c81821-3-1.html#15101348">
+                                            <img alt="法拉利F12 Berlinetta官方图" src="http://www.sinaimg.cn/qc/photo_auto/photo/13/48/15101348/15101348_340.jpg" title="法拉利F12 Berlinetta官方图图片">
+                                        </a>
+                                    </div>
+                                    <p class="title">
+                                        <a target="_blank" href="//db.auto.sina.com.cn/photo/c81821-3-1.html#15101348" title="法拉利F12 Berlinetta官方图图片">法拉利F12 Berlinetta官方图</a>
+                                    </p>
+                                </li>
+                            <li class="fL">
+                                    <div class="img">
+                                        <a target="_blank" href="//db.auto.sina.com.cn/photo/c81821-3-1.html#15101347">
+                                            <img alt="法拉利F12 Berlinetta官方图" src="http://www.sinaimg.cn/qc/photo_auto/photo/13/47/15101347/15101347_340.jpg" title="法拉利F12 Berlinetta官方图图片">
+                                        </a>
+                                    </div>
+                                    <p class="title">
+                                        <a target="_blank" href="//db.auto.sina.com.cn/photo/c81821-3-1.html#15101347" title="法拉利F12 Berlinetta官方图图片">法拉利F12 Berlinetta官方图</a>
+                                    </p>
+                                </li>
+                            <li class="fL">
+                                    <div class="img">
+                                        <a target="_blank" href="//db.auto.sina.com.cn/photo/c81821-3-1.html#15101346">
+                                            <img alt="法拉利F12 Berlinetta官方图" src="http://www.sinaimg.cn/qc/photo_auto/photo/13/46/15101346/15101346_340.jpg" title="法拉利F12 Berlinetta官方图图片">
+                                        </a>
+                                    </div>
+                                    <p class="title">
+                                        <a target="_blank" href="//db.auto.sina.com.cn/photo/c81821-3-1.html#15101346" title="法拉利F12 Berlinetta官方图图片">法拉利F12 Berlinetta官方图</a>
+                                    </p>
+                                </li>
+                            <li class="fL">
+                                    <div class="img">
+                                        <a target="_blank" href="//db.auto.sina.com.cn/photo/c81821-3-1.html#15101345">
+                                            <img alt="法拉利F12 Berlinetta官方图" src="http://www.sinaimg.cn/qc/photo_auto/photo/13/45/15101345/15101345_340.jpg" title="法拉利F12 Berlinetta官方图图片">
+                                        </a>
+                                    </div>
+                                    <p class="title">
+                                        <a target="_blank" href="//db.auto.sina.com.cn/photo/c81821-3-1.html#15101345" title="法拉利F12 Berlinetta官方图图片">法拉利F12 Berlinetta官方图</a>
+                                    </p>
+                                </li>
+                            <li class="fL">
+                                    <div class="img">
+                                        <a target="_blank" href="//db.auto.sina.com.cn/photo/c81821-3-1.html#15101344">
+                                            <img alt="法拉利F12 Berlinetta官方图" src="http://www.sinaimg.cn/qc/photo_auto/photo/13/44/15101344/15101344_340.jpg" title="法拉利F12 Berlinetta官方图图片">
+                                        </a>
+                                    </div>
+                                    <p class="title">
+                                        <a target="_blank" href="//db.auto.sina.com.cn/photo/c81821-3-1.html#15101344" title="法拉利F12 Berlinetta官方图图片">法拉利F12 Berlinetta官方图</a>
+                                    </p>
+                                </li>
+                            <li class="fL">
+                                    <div class="img">
+                                        <a target="_blank" href="//db.auto.sina.com.cn/photo/c81821-3-1.html#15101343">
+                                            <img alt="法拉利F12 Berlinetta官方图" src="http://www.sinaimg.cn/qc/photo_auto/photo/13/43/15101343/15101343_340.jpg" title="法拉利F12 Berlinetta官方图图片">
+                                        </a>
+                                    </div>
+                                    <p class="title">
+                                        <a target="_blank" href="//db.auto.sina.com.cn/photo/c81821-3-1.html#15101343" title="法拉利F12 Berlinetta官方图图片">法拉利F12 Berlinetta官方图</a>
+                                    </p>
+                                </li>
+                            <li class="fL">
+                                    <div class="img">
+                                        <a target="_blank" href="//db.auto.sina.com.cn/photo/c74054-27-2.html#69697335">
+                                            <img alt="F12 Berlinetta" src="http://www.sinaimg.cn/qc/photo_auto/chezhan/2016/68/13/33/222560_340.jpg" title="F12 Berlinetta图片">
+                                        </a>
+                                    </div>
+                                    <p class="title">
+                                        <a target="_blank" href="//db.auto.sina.com.cn/photo/c74054-27-2.html#69697335" title="F12 Berlinetta图片">F12 Berlinetta</a>
+                                    </p>
+                                </li>
+                            <li class="fL">
+                                    <div class="img">
+                                        <a target="_blank" href="//db.auto.sina.com.cn/photo/c74054-27-2.html#69697334">
+                                            <img alt="F12 Berlinetta" src="http://www.sinaimg.cn/qc/photo_auto/chezhan/2016/68/13/33/222559_340.jpg" title="F12 Berlinetta图片">
+                                        </a>
+                                    </div>
+                                    <p class="title">
+                                        <a target="_blank" href="//db.auto.sina.com.cn/photo/c74054-27-2.html#69697334" title="F12 Berlinetta图片">F12 Berlinetta</a>
+                                    </p>
+                                </li>
+                            <li class="fL">
+                                    <div class="img">
+                                        <a target="_blank" href="//db.auto.sina.com.cn/photo/c74054-27-2.html#69697333">
+                                            <img alt="F12 Berlinetta" src="http://www.sinaimg.cn/qc/photo_auto/chezhan/2016/68/13/33/222558_340.jpg" title="F12 Berlinetta图片">
+                                        </a>
+                                    </div>
+                                    <p class="title">
+                                        <a target="_blank" href="//db.auto.sina.com.cn/photo/c74054-27-2.html#69697333" title="F12 Berlinetta图片">F12 Berlinetta</a>
+                                    </p>
+                                </li>
+                            </ul>
                 </div>
                 
                 <!-- 分页 -->
-                </div>
+                <div class="pagination">
+    <a class="first" href="//db.auto.sina.com.cn/photo/s1387-0-0-0-0-0-1.html" target="_self">首页</a>
+    <a class="on" href="//db.auto.sina.com.cn/photo/s1387-0-0-0-0-0-1.html" target="_self">1</a>
+	     		<a  href="//db.auto.sina.com.cn/photo/s1387-0-0-0-0-0-2.html" target="_self">2</a>
+	     		<a  href="//db.auto.sina.com.cn/photo/s1387-0-0-0-0-0-3.html" target="_self">3</a>
+	     		<a  href="//db.auto.sina.com.cn/photo/s1387-0-0-0-0-0-4.html" target="_self">4</a>
+	     		<a  href="//db.auto.sina.com.cn/photo/s1387-0-0-0-0-0-5.html" target="_self">5</a>
+	     		<span>…</span>
+    		<a href="//db.auto.sina.com.cn/photo/s1387-0-0-0-0-0-20.html" target="_self">20</a>
+    	<a class="next" href="//db.auto.sina.com.cn/photo/s1387-0-0-0-0-0-2.html" target="_self">下一页<span>>></span></a>
+    <a class="last" href="//db.auto.sina.com.cn/photo/s1387-0-0-0-0-0-20.html" target="_self">末页</a>
+	</div>
+</div>
             <!-- auto commonFoot begin -->
             <div class="footer">
     <div class="footer-bd">
