@@ -86,6 +86,7 @@ if __name__ == '__main__': # 爬取车的图片
             img_path = main_path + '/cars_images/' + first_name + '/' + xi
             real_data = list(data[xi].items()) # 有网址的数据
             for item in real_data:
+                print('解析', xi)
                 car_type = item[0]
                 rq_url = item[1]
                 #print(img_path + '/' + car_type, rq_url)
