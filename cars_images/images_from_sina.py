@@ -67,6 +67,9 @@ if __name__ == '__main__': # 爬取车的图片
     source_data = txt2lst('cars_sites.txt')
     source = [i[0] for i in source_data]
     source = [json.loads(i) for i in source]
+    has_p = open('has_parsed.txt', 'a+', encoding='utf-8')
+    has_p_url = has_p.readlines()
+    has_p_url = [i.strip() for i in has_p_url]
     for i in source:
         first_name = i[0]
         if os.path.exists(main_path + '/cars_images/' + first_name):
@@ -89,4 +92,8 @@ if __name__ == '__main__': # 爬取车的图片
                 get_images(img_path + '/' + car_type, rq_url)
                 time_lazy = random.randint(5, 50)
                 time.sleep(time_lazy)
+                if rq_url not in has_p_url:
+                    has_p_url.append(rq_url)
+                    has_p.write(rq_url + '\n')
+    has_p.close()
 
