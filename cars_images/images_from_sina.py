@@ -3,7 +3,7 @@
 by xlc time:2018-05-05 22:47:33
 '''
 import sys
-sys.path.append(r'G:\Github_codes\mypyfunc')
+sys.path.append(r'D:\mypyfunc')
 import os
 main_path = os.path.dirname(os.path.abspath(__file__)).replace('\\', '/')
 main_path = '/'.join(main_path.split('/')[:-1])
@@ -89,11 +89,15 @@ if __name__ == '__main__': # 爬取车的图片
                 car_type = item[0]
                 rq_url = item[1]
                 #print(img_path + '/' + car_type, rq_url)
-                get_images(img_path + '/' + car_type, rq_url)
-                time_lazy = random.randint(5, 50)
-                time.sleep(time_lazy)
-                if rq_url not in has_p_url:
-                    has_p_url.append(rq_url)
-                    has_p.write(rq_url + '\n')
+                try:
+                    if rq_url not in has_p_url:
+                        get_images(img_path + '/' + car_type, rq_url)
+                        #time_lazy = random.randint(5, 50)
+                        #time.sleep(time_lazy)
+                        has_p_url.append(rq_url)
+                        has_p.write(rq_url + '\n')
+                except Exception as e:
+                    print(str(e))
+                    has_p.close()
     has_p.close()
 
