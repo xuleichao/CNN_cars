@@ -3,7 +3,7 @@
 by xlc time:2018-05-05 22:47:33
 '''
 import sys
-sys.path.append(r'D:\mypyfunc')
+sys.path.append(r'G:\Github_codes\mypyfunc')
 import os
 main_path = os.path.dirname(os.path.abspath(__file__)).replace('\\', '/')
 main_path = '/'.join(main_path.split('/')[:-1])
@@ -15,8 +15,9 @@ import time
 import random
 
 def get_images(path_name, url): # 给定url 爬取图片
-
-    url_request = urllib.request.urlopen('http:'+url)
+    req = urllib.request.Request('http:'+url)
+    req.add_header('User-Agent', 'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)') 
+    url_request = urllib.request.urlopen(req)
     data = url_request.read().decode('utf-8')
     soup = bf(data, 'lxml')
     need_data = soup.find('div', {'class':'y-tuku235 seek-list'}).find_all('li')
@@ -31,6 +32,8 @@ def get_images(path_name, url): # 给定url 爬取图片
         f.write(img_dt)
         f.close()
         count += 1
+        #time_lazy = random.randint(5, 120)
+        #time.sleep(time_lazy)
 
 if __name__ != '__main__':#爬源代码 txt.txt
     url = 'http://db.auto.sina.com.cn/photo/b76.html'
@@ -67,9 +70,11 @@ if __name__ == '__main__': # 爬取车的图片
     source_data = txt2lst('cars_sites.txt')
     source = [i[0] for i in source_data]
     source = [json.loads(i) for i in source]
-    has_p = open('has_parsed.txt', 'a+', encoding='utf-8')
+    has_p = open('has_parsed.txt', 'r', encoding='utf-8')
     has_p_url = has_p.readlines()
+    has_p.close()
     has_p_url = [i.strip() for i in has_p_url]
+    
     for i in source:
         first_name = i[0]
         if os.path.exists(main_path + '/cars_images/' + first_name):
@@ -86,17 +91,19 @@ if __name__ == '__main__': # 爬取车的图片
             img_path = main_path + '/cars_images/' + first_name + '/' + xi
             real_data = list(data[xi].items()) # 有网址的数据
             for item in real_data:
-                print('解析', xi)
                 car_type = item[0]
                 rq_url = item[1]
                 #print(img_path + '/' + car_type, rq_url)
+                has_p = open('has_parsed.txt', 'a', encoding='utf-8')
                 try:
                     if rq_url not in has_p_url:
+                        print('解析', xi)
                         get_images(img_path + '/' + car_type, rq_url)
                         #time_lazy = random.randint(5, 50)
                         #time.sleep(time_lazy)
                         has_p_url.append(rq_url)
                         has_p.write(rq_url + '\n')
+                        has_p.close()
                 except Exception as e:
                     print(str(e))
                     has_p.close()
